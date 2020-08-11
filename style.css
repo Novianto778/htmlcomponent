@@ -80,3 +80,234 @@ button {
   font-size: 20px;
   background-color: var(--main-pink-color);
 }
+
+.awesomes-component {
+  margin-top: 70px;
+}
+
+.main-part .section-title {
+  text-align: center;
+  padding-bottom: 70px;
+  font-size: 20px;
+}
+
+.main-part section {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.row {
+  display: flex;
+}
+
+.row h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.col-left {
+  width: 50%;
+  margin-right: 30px;
+}
+
+.awesomes-component img {
+  width: 450px;
+}
+
+.col-right {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.section-content p {
+  margin: 10px 0;
+}
+
+.videos-embed {
+  width: 100%;
+  height: 300px;
+}
+
+.column {
+  margin: 0 auto;
+}
+
+.card {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  border-radius: 15px;
+  background: #fbfbfb;
+  box-shadow: 20px 20px 60px #d5d5d5, -20px -20px 60px #ffffff;
+}
+
+.card img {
+  width: 245px;
+  padding: 10px 0;
+}
+
+#job {
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  margin: 15px 10px 20px 10px;
+}
+
+button i {
+  padding: 10px 20px;
+  background-color: var(--main-pink-color);
+}
+
+.profile {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  background: #fbfbfb;
+  box-shadow: 20px 20px 60px #d5d5d5, -20px -20px 60px #ffffff;
+  padding: 50px 80px;
+  position: relative;
+  opacity: 0.8;
+  transition: all 0.5s ease-out;
+  margin-bottom: 70px;
+}
+
+.profile button {
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 5px 15px;
+  background-color: rgb(219, 109, 136);
+}
+
+.profile button a {
+  text-decoration: none;
+  color: black;
+}
+
+.box1 {
+  background-color: var(--main-pink-color);
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0 15px 0 15px;
+}
+
+.box2 {
+  background-color: var(--main-pink-color);
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 0 15px 0 15px;
+}
+
+.profile:hover {
+  transform: translateY(-5px) translateX(5px);
+  opacity: 1;
+}
+
+footer {
+  display: flex;
+  color: white;
+  background-color: black;
+}
+
+.about-us-container,
+.newsletter-container {
+  flex-basis: 50%;
+  padding: 20px 15px;
+}
+
+input {
+  display: inline-block;
+  width: 240px;
+  height: 30px;
+  margin-right: -5px;
+}
+
+footer button {
+  margin-top: 30px;
+  font-size: 14px;
+  background-color: red;
+  color: black;
+  padding: 6px 20px 7px 20px;
+  margin-bottom: 20px;
+}
+
+.icon .fa {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .menu-container {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .jumbotron {
+    margin-top: 0;
+    height: 500px;
+  }
+
+  .jumbotron h1 {
+    font-size: 38px;
+  }
+
+  .btn {
+    margin-top: 45px;
+    width: 300px;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .awesomes-component section:nth-child(even) .col-left {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .col-left,
+  .col-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .awesomes-component section img {
+    width: 400px;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  .about-us-container,
+  .newsletter-container {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .awesomes-component section img {
+    width: 100%;
+  }
+
+  .videos-embed {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 95%;
+  }
+}
