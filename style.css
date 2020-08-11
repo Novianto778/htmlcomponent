@@ -52,3 +52,31 @@ nav .container {
 .hamburger-menu {
   display: none;
 }
+
+/* Jumbotron Part */
+.jumbotron {
+  background: url(images/jumbotron.jpg);
+  margin-top: -80px;
+  height: 640px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.jumbotron h1 {
+  padding-top: 180px;
+  font-size: 48px;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  margin-top: 85px;
+  padding: 5px 30px;
+  width: 180px;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: var(--main-pink-color);
+}
