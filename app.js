@@ -1,5 +1,5 @@
-import Header from "./component/header.js"
-import Jumbotron from "./component/jumbotron.js"
-import Main from "./component/main/main.js"
-import Profile from "./component/aside/profile.js"
-import Footer from "./component/footer.js"
+import "./component/header.js";
+import "./component/jumbotron.js";
+import "./component/main/main.js";
+import "./component/aside/profile.js";
+import "./component/footer.js";
